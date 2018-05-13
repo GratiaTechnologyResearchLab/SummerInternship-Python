@@ -2,22 +2,22 @@ import tweepy
 import json
 
 # Consumer keys and access tokens, used for OAuth
-API_KEY = 'ylHs9oKHl1El44zspcoV0OyO9'
-API_SECRET='IdWdPkgAHuBEeB3lrrdjb8pjXRRk4nZuYPN3eNRuIheAqwuTPb'
-ACCESS_TOKEN='903936075118239744-wVXlrfrDpV5NRKoKdOjVLhpAVMJe4Cy'
-ACCESS_TOKEN_SECRET='lhjRsJRlSKA3rew1LwWZcKa7NKVbclTlaTNmLO4YNhygq'
+API_KEY = 'oNlx4TCw5YcykzZCNaQei0w8x'
+API_SECRET='PDzXBJiS3DwMc2YCHl6remkN0z2mAERxPJP1ArLYBovjXDYZzO'
+ACCESS_TOKEN='958211334486704128-uT4IU8dB4a408ewYLUXvppERD4KCTyH'
+ACCESS_TOKEN_SECRET='g3MKPwwO1ZstBOMgfjmVIym9VaEhtL1LP2Yf82lQWEne9'
 
 
 # OAuth process, using the keys and tokens
-auth = tweepy.OAuthHandler(API_KEY, API_SECRET)
+auth=tweepy.OAuthHandler(API_KEY, API_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
 # Creation of the actual interface, using authentication
 api = tweepy.API(auth)
 
 #user= api.get_user(screen_name='Priyom16')
-api.get_user('Priyom16')
-api.update_profile_image('/home/priyom/SummerInternship-Python/Pyro13m/Tweepy_test/ok.jpg')
+#api.get_user(screen_name='Priyom16')
+api.update_profile_image('ok.jpg')
 
 #printing the details of the user
 
