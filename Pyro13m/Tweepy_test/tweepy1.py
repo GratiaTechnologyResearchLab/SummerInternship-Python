@@ -15,12 +15,10 @@ auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 # Creation of the actual interface, using authentication
 api = tweepy.API(auth)
 
+#user= api.get_user(screen_name='Priyom16')
 api.get_user('Priyom16')
-api.update_profile_image('ok.jpg')
+api.update_profile_image('/home/priyom/SummerInternship-Python/Pyro13m/Tweepy_test/ok.jpg')
 
 #printing the details of the user
 
 #getting user data(here profile picture)
-
-
-
