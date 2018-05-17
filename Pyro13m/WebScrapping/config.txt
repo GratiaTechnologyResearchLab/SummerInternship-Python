@@ -1,5 +1,0 @@
-[Credentials]
-
-UserName: <username>
-
-Password: <password>
