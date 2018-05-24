@@ -1,0 +1,5 @@
+1. You​ ​ are​ ​ given​ ​ five​ ​ different​ ​ 2-dimensional​ ​ datasets.​ ​ Some​ ​ datasets​ ​ are​ ​ noisy, 
+unbalanced,​ ​ etc.​ ​ Explore​ ​ the​ ​ datasets,​ ​ plot​ ​ them​ ​ and​ ​ write​ ​ your​ ​ observations​ ​ and​ ​ findings 
+of​ ​ the​ ​ datasets. 
+2. For​ ​ each​ ​ dataset,​ use​ kernel​ (if​ ​ required​)​ to​ ​ make​ ​ them​ ​ linearly​ ​ separable.​ ​ Plot​ ​ the 
+datasets​ ​ with​ ​ decision​ ​ boundaries​ ​ corresponding​ ​ to​ ​ those​ ​ kernels;​ ​ something​ ​ like​ ​ Fig. svm.png in this folder.
